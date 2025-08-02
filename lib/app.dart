@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assessment_1/assessment_2.dart';
 import 'assessment_1.dart';
 
 class MyApp extends StatelessWidget{
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title:"batch 11 flutter",
-      home: assessment1(),
+      home: assessment2 (),
     );
   }
 }
